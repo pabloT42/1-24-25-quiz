@@ -1,0 +1,20 @@
+#pablo torres 1/24/25
+#Write a function called CheckSign.
+#This function takes one integer parameter named "num".
+#If num is positive, the function prints "positive".
+#If it's negative, it prints "negative",
+#and if it's zero, it prints "zero". This function doesn't return anything.
+
+
+#function definition
+def CheckSign(num):
+    if num > 0:
+        print("positive")
+    
+    elif num < 0:
+        print("negative")
+        
+    else:
+         print("zero")
+         
+CheckSign(40) #function call
